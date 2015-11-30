@@ -1,0 +1,27 @@
+{
+  "name": "jquery-tagmanager",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Antevenio/jquery-tagmanager",
+  "authors": [],
+  "description": "Google Tagmanager JQuery plugin",
+  "main": "tagmanager.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "google",
+    "tagmanager",
+    "jquery",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
