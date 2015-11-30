@@ -3,13 +3,22 @@ Google Tagmanager jQuery plugin
 
 ## Usage
 
-The first call must include Google TagManager ID:
 ```javascript
 $.tagManager({id: 'GTM-ABC123'});
 ```
 
-Then you can push events manually:
+The first call must include the GTM ID.
 
+It will push events from every element with predefined data attributes. i.e.:
+```html
+<button type="button" class="ga-tag" 
+  data-gacategory="Conversion" data-gaaction="Recharge" 
+  data-galabel="Recharge_Btn" data-gaevent="eventga">
+</button>
+```
+The Element needs to contain "ga-tag" class. 
+
+You can also push events manually:
 ```javascript
 $.tagManager('push', {
   category: 'Conversion', 
@@ -17,13 +26,6 @@ $.tagManager('push', {
   label: 'Recharge_Btn', 
   event: 'eventga'
 });
-```
-You can also push events throw with HTM5's data attributes. The Element needs to contain "ga-tag" class:
-```html
-<button type="button" class="ga-tag" 
-  data-gacategory="Conversion" data-gaaction="Recharge" 
-  data-galabel="Recharge_Btn" data-gaevent="eventga">
-</button>
 ```
 
 ## Settings:
@@ -38,10 +40,7 @@ var defaultSettings = {
 };
 ```
 
-You can change them in every call:
+You can change them in every call. i.e.:
 ```javascript
 $.tagManager({debug: false, class: "my-ga-tag"});
 ```
-
-
-
