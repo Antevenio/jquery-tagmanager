@@ -1,0 +1,19 @@
+{
+  "name": "jquery-tagmanager",
+  "version": "1.0.0",
+  "description": "Google Tagmanager jQuery plugin",
+  "main": "tagmanager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antevenio/jquery-tagmanager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antevenio/jquery-tagmanager/issues"
+  },
+  "homepage": "https://github.com/Antevenio/jquery-tagmanager#readme"
+}
